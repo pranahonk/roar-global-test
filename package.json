@@ -1,0 +1,46 @@
+{
+  "name": "roar-global-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.10.10",
+    "@tiptap/core": "^2.1.16",
+    "@tiptap/extension-bubble-menu": "^2.1.16",
+    "@tiptap/extension-bullet-list": "^2.3.1",
+    "@tiptap/extension-heading": "^2.3.1",
+    "@tiptap/extension-image": "^2.3.1",
+    "@tiptap/extension-link": "^2.3.1",
+    "@tiptap/extension-list-item": "^2.3.1",
+    "@tiptap/extension-ordered-list": "^2.3.1",
+    "@tiptap/extension-paragraph": "^2.3.1",
+    "@tiptap/extension-underline": "^2.3.1",
+    "@tiptap/pm": "^2.1.16",
+    "@tiptap/starter-kit": "^2.1.16",
+    "solid-js": "^1.8.17",
+    "solid-tiptap": "^0.7.0",
+    "terracotta": "^1.0.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-solid": "^0.13.1",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.11",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}
