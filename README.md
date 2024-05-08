@@ -20,18 +20,7 @@ This repository contains the source code for a test project using Solid.js and T
 
 - Node.js and npm (or yarn) installed on your system.
 
-### Installation:
-
-Clone this repository:
-
-```bash
-git clone https://github.com/your-username/roar-global-test.git
-Node.js and npm (or yarn) installed on your system.
-```
-
 #### Installation:
-
-Clone this repository:
 ```bash
   git clone https://github.com/your-username/roar-global-test.git
 ```
