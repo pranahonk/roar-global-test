@@ -21,7 +21,7 @@ const Login = () => {
 
     setTimeout(() => {
       if (username() === "admin" && password() === "admin") {
-        navigate("/dashboard");
+        navigate("/user");
         setThemes({ sidebar: true, header: true, blankScreen: true });
         setItem<UserDataInterFace>("userdata", {
           username: username(),
@@ -38,7 +38,7 @@ const Login = () => {
   createEffect(() => {
     if (getItem<UserDataInterFace>("userdata").username) {
       setThemes({ sidebar: true, header: true, blankScreen: true });
-      navigate("/dashboard");
+      navigate("/user");
     }
     setUsername("admin");
     setPassword("admin");
