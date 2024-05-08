@@ -52,7 +52,7 @@ const UserDetail = () => {
                 </div>
             </div>
             <div class="grid grid-cols-1 grid-rows-1 gap-4 mt-4">
-                <ToolbarEditor />
+                <ToolbarEditor/>
             </div>
 
             <div class="grid grid-cols-2 grid-rows-1 gap-4 mt-4">
@@ -89,10 +89,15 @@ const UserDetail = () => {
                             <ActivityItem {...activity} />
                         )}</For>
                     </ul>
-                    <button role="button" type="submit">
-                        SUBMIT
-                    </button>
+
                 </div>
+            </div>
+
+            <div class="text-center">
+                <button class="my-10 bg-[#7bafe2] w-1/2 h-10 mx-auto text-white rounded-xl" role="button"
+                        type="submit">
+                    SUBMIT
+                </button>
             </div>
         </>
     );
